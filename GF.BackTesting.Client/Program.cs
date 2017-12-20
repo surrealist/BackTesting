@@ -8,7 +8,12 @@ namespace GF.BackTesting.Client {
   class Program {
     static void Main(string[] args) {
       // arrange
-      var p = new CsvPriceReader("STOCK.csv.txt");
+      if (args.Length < 1) {
+        Console.WriteLine("Usage: GF.BackTesting.Client.Exe <FileName>");
+        return;
+      }
+
+      var p = new CsvPriceReader(args[0]);
       var c = new CandleStickReader(timeframe: 15, priceReader: p);
 
       c.NewCandleStick += C_NewCandleStick;
