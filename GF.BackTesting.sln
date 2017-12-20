@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GF.BackTesting", "GF.BackTe
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GF.BackTesting.Facts", "GF.BackTesting.Facts\GF.BackTesting.Facts.csproj", "{DDB2B2A9-4577-4C3A-A0F8-956C67A76B1B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GF.BackTesting.Client", "GF.BackTesting.Client\GF.BackTesting.Client.csproj", "{6AF3DE9E-63AD-44E4-9E72-44E944E5A74B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{DDB2B2A9-4577-4C3A-A0F8-956C67A76B1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DDB2B2A9-4577-4C3A-A0F8-956C67A76B1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DDB2B2A9-4577-4C3A-A0F8-956C67A76B1B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6AF3DE9E-63AD-44E4-9E72-44E944E5A74B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6AF3DE9E-63AD-44E4-9E72-44E944E5A74B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6AF3DE9E-63AD-44E4-9E72-44E944E5A74B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6AF3DE9E-63AD-44E4-9E72-44E944E5A74B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
